@@ -1,6 +1,6 @@
 # My Health Expert Web App
 
-![image](https://raw.githubusercontent.com/sayed-soeb/healthApp/master/bmi.png)
+![image](https://drive.google.com/file/d/11LdLY4RTbc6Cg9bCLSEHCFO9vHffnIOz/view?usp=drive_link)
 
 ## Description
 My Health Expert is a web application designed to assist elderly individuals in managing their medication schedule and providing a personalized diet plan. The app allows users to set medication reminders and provides them with a diet plan based on their specific health conditions.

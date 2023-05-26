@@ -1,0 +1,151 @@
+body {
+    background-image: url("spring-summer-season-abstract-nature-background-grass-blue-sky-back-49716369.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    color: #edf5e1;
+    background-color: #05386B;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #edf5e1;
+  }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-style: solid;
+    border-color: #edf5e1;
+    backdrop-filter: blur(30px);
+    box-shadow:lemonchiffon;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  input[type="time"],
+  input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #05386B;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #reminder-container,
+  #diet-plan-container {
+    margin-top: 10px;
+  }
+  
+  .reminder-item,
+  .diet-plan-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .reminder-item .time,
+  .diet-plan-item .food {
+    margin-right: 10px;
+  }
+  
+  .reminder-item .delete-btn,
+  .diet-plan-item .delete-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #bmi-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #bmi-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #05386B;
+    color: #edf5e1;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #bmi-result {
+    margin-top: 10px;
+  }
+  #alarm-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 9999;
+  }
+  
+  #alarm-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #alarm-stop {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #alarm-stop:hover {
+    background-color: #0069d9;
+  }
+/* Rest of the CSS code */
+
+/* Rest of the CSS code */
+
+.delete-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #8a0900;
+  }
+  
+  .delete-btn:hover {
+    color: #620202;
+  }
+  
+  

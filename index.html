@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elderly Care Web App</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>My Health Expert</h1>
+  <div class="container">
+    <h2>Set Medicine Reminder</h2>
+    <label for="medicine-time">Medicine Time:</label>
+    <input type="time" id="medicine-time" required>
+    <button id="set-reminder-btn">Set Reminder</button>
+    <div id="alarm-popup">
+        <p id="alarm-message"></p>
+        <button id="alarm-stop">Stop</button>
+      </div>
+      
+
+    <h2>Reminder</h2>
+    <div id="reminder-container"></div>
+
+
+    <h2>Diet Plan</h2>
+    <select id="problem-selector">
+      <option value="normal">Normal</option>
+      <option value="diabetes">Diabetes</option>
+      <option value="hypertension">Hypertension</option>
+    </select>
+    <div id="diet-plan-container"></div>
+
+    <h2>BMI Calculator</h2>
+    <label for="weight">Weight (in kg):</label>
+    <input type="number" id="weight" step="0.01" required>
+    <label for="height">Height (in cm):</label>
+    <input type="number" id="height" step="0.01" required>
+    <button id="calculate-bmi-btn">Calculate BMI</button>
+    <div id="bmi-container">
+      <div id="bmi-circle">
+        <span id="bmi-value">BMI</span>
+      </div>
+      <div id="bmi-result"></div>
+    </div>
+
+   
+
+    <audio id="alarm-sound" src="mixkit-alarm-tone-996.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

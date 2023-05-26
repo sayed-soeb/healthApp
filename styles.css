@@ -17,10 +17,9 @@ h1 {
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    border-style: solid;
-    border-color: #edf5e1;
     backdrop-filter: blur(30px);
     box-shadow:lemonchiffon;
+    border-radius: 10px;
   }
   
   h2 {

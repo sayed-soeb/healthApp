@@ -14,7 +14,7 @@ The main features of the app include:
 ## Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](https://drive.google.com/file/d/11LdLY4RTbc6Cg9bCLSEHCFO9vHffnIOz/view?usp=sharing)
 
 ### Medication Reminders
 ![Medication Reminders](./screenshots/med.png)

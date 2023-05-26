@@ -1,6 +1,6 @@
 # My Health Expert Web App
 
-![App Screenshots](./screenshots/home.png)
+![App Screenshots](/home.png)
 
 ## Description
 My Health Expert is a web application designed to assist elderly individuals in managing their medication schedule and providing a personalized diet plan. The app allows users to set medication reminders and provides them with a diet plan based on their specific health conditions.
@@ -17,7 +17,7 @@ The main features of the app include:
 ![Home Page](/home.png)
 
 ### Medication Reminders
-![Medication Reminders](./screenshots/med.png)
+![Medication Reminders](/med.png)
 
 ### Diet Plan Recommendations
 ![Diet Plan Recommendations](/diet.png)
